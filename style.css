@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   font-family: "Roboto", sans-serif;
-   outline: none;
+    font-family: "Roboto", sans-serif;
+    outline: none;
 }
 
 body {
@@ -95,4 +95,15 @@ section {
     color: #555555;
     font-weight: 700;
     font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 50%;
+    }
+
+    main {
+        position: static;
+        max-width: 90%;
+    }
 }
